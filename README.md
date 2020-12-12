@@ -4,6 +4,7 @@
 ## **Table of Contents**
 
 * [Description](#Description)
+* [Application](#Application)
 * [Installation](#Installation)
 <!-- * [Screenshots](#Screenshots) -->
 * [Contributing](#Contributing)
@@ -14,6 +15,9 @@
 ## **Description**
 
 The purpose of this assignment was to create a website that allows users to both create a burger, add update the value of whether it has been consumed or not.  The user should be able to add a burger, set the original "devoured" value of the burger, read the list of both undevoured and devoured burgers, and change the status of a burger in either list.  I used MYSQL2, Express, and Express Handlebars to create this project.  The biggest issue I had with this assignment was making sure all the variable and function names matched between all the different documents.  After struggling for while, I ended up creating a variable key in my notes to keep track of all the slight variations of names like "burger.js" vs "burgers.js" and things like mixing up function names "updateOne" and "insertOne" with "createOne."
+
+## **Application**
+
 
 ## **Installation**
 1. Clone the repo
