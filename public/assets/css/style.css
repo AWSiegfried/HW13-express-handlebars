@@ -1,0 +1,29 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+li {
+    padding: 5px;
+    margin: 5px;
+    background: #faebd7;
+}
+
+.label {
+    font-weight: bold;
+}
+
+.create-update-form {
+    padding: 5px;
+    margin: 5px;
+    background: aqua;
+}
+
+.form-group {
+    margin-bottom: 5px;
+}
+
+#design {
+    margin: auto0;
+    padding: 30px;
+}

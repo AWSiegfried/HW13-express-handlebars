@@ -1,5 +1,6 @@
-const express = require("express");
-const router = express.Router();
+var express = require("express");
+
+var router = express.Router();
 
 var burger = require("../models/burger.js");
 
@@ -15,7 +16,7 @@ router.get("/", function(req, res) {
 });
 
 router.post("/api/burgers", function(req, res) {
-    burger.updateOne(["name", "devoured"], [req.body.name, req.body.devoured], function(result) {
+    burger.insertOne(["burger_name", "devoured"], [req.body.burger_name, req.body.devoured], function(result) {
         // Send back the ID of the new quote
         res.json({ id: result.insertId });
     });
@@ -26,7 +27,7 @@ router.put("/api/burgers/:id", function(req, res) {
 
     console.log("condition", condition);
 
-    burger.insertOne({
+    burger.updateOne({
             devoured: req.body.devoured
         },
         condition,
