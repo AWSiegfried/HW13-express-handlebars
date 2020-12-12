@@ -5,7 +5,7 @@
 
 * [Description](#Description)
 * [Installation](#Installation)
-* [Screenshots](#Screenshots)
+<!-- * [Screenshots](#Screenshots) -->
 * [Contributing](#Contributing)
 * [Tests](#Tests)
 * [License](#License)
@@ -13,12 +13,12 @@
 
 ## **Description**
 
-The purpose of this assignment was to create a Content Management System for a person to view various data sets of the internal structure of an organization (departments, roles & employees).  The user should be able to use the command line to choose various options to both view and update different data sets.  I used MYSQL, Inquirer, and console.table to create this project.  Inquirer is great to use for asking the user questions and pulling in that data, while console.table makes taking data and converting it into a table far simpler.  I had originally not used console.table and my code was a nightmare to look at becuase I was using so many variables, but console.table essentially let me one-line things. 
+The purpose of this assignment was to create a website that allows users to both create a burger, add update the value of whether it has been consumed or not.  The user should be able to add a burger, set the original "devoured" value of the burger, read the list of both undevoured and devoured burgers, and change the status of a burger in either list.  I used MYSQL2, Express, and Express Handlebars to create this project.  The biggest issue I had with this assignment was making sure all the variable and function names matched between all the different documents.  After struggling for while, I ended up creating a variable key in my notes to keep track of all the slight variations of names like "burger.js" vs "burgers.js" and things like mixing up function names "updateOne" and "insertOne" with "createOne."
 
 ## **Installation**
 1. Clone the repo
 ```sh
-https://github.com/AWSiegfried/HW12-employee-system.git
+https://github.com/AWSiegfried/HW13-express-handlebars.git
 ```
 
 2. Install NPM packages
@@ -26,8 +26,8 @@ https://github.com/AWSiegfried/HW12-employee-system.git
 npm install
 ```
 
-## **Demonstration Video**
-![gif](./Assets/demo.gif)
+<!-- ## **Screenshot**
+![gif](./Assets/demo.gif) -->
 
 
 ## **Contributing**
