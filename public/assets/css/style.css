@@ -2,13 +2,14 @@ body {
     background-color: black;
     color: white;
     font-family: 'Covered By Your Grace', cursive;
+    font-size: 25px;
 }
 
 #grilled {
-    align: center;
+    align-content: center;
 }
 
-li {
+p2 {
     padding: 5px;
     margin: 5px;
     background: #FE0101;
@@ -31,4 +32,6 @@ li {
 #design {
     margin: auto;
     padding: 30px;
+    /* border: 2px; */
+    /* border-color: red; */
 }
