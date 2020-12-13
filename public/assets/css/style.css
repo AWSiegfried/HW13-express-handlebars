@@ -1,12 +1,17 @@
 body {
     background-color: black;
     color: white;
+    font-family: 'Covered By Your Grace', cursive;
+}
+
+#grilled {
+    align: center;
 }
 
 li {
     padding: 5px;
     margin: 5px;
-    background: #faebd7;
+    background: #FE0101;
 }
 
 .label {
@@ -24,6 +29,6 @@ li {
 }
 
 #design {
-    margin: auto0;
+    margin: auto;
     padding: 30px;
 }
